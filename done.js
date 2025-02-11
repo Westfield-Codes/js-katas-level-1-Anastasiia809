@@ -1,7 +1,8 @@
 /* Var, Prompt and Alert Katas */
 
 /* COLOR KATAS */
-
+var color = "green";
+alert("My favorite color is: " + color);
 /* No Prompt */
 
 

@@ -5,7 +5,9 @@
 
 /* Var Alert */
 // make a string variable for a color, set it equal to your favorite
+var color = "green";
 // alert the message" "My favorite color is " plus the color
+alert("My favourite color is: " + color);
 
 /* Var Alert Prompt */
 // make a string variable for color, prompt the user for their favorite

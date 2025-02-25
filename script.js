@@ -1,9 +1,8 @@
-/* Var Alert Prompt Conditional */
-// make an integer variable for age, prompt user for it
-var age = prompt("How old are you?");
-// make a string variable for name, prompt user for it
-var name1 = prompt("What is your name?");
-// if age is greater than 16, alert "you don't look that old!"
-if ( age > 16 ) alert( name1 +  " doesn't look that old!");
-// otherwise alert name is age years old
-else alert( name1 + " is " + age + " years old!");
+/* Var Alert Prompt Conditionals */
+// make a variable for pet type, prompt user for it 
+var petType = prompt("")
+// make a variable for pet name, prompt user for it
+// alert "You have a pet type named pet name 
+// if pet is a dog, say "I like dogs, too!"
+// if it is a cat, say "I'm allergic to cats"
+// If it is not a dog or a cat, say "what an interesting pet!"

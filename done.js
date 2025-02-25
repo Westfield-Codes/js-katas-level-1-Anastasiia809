@@ -12,7 +12,15 @@ alert("My favorite color is: " + color);
 
 
 /* AGE */
-
+/* Var Alert Prompt Conditional */
+// make an integer variable for age, prompt user for it
+var age = prompt("How old are you?");
+// make a string variable for name, prompt user for it
+var name1 = prompt("What is your name?");
+// if age is greater than 16, alert "you don't look that old!"
+if ( age > 16 ) alert( name1 +  " don't look that old!");
+// otherwise alert name is age years old
+else alert( name1 + " is " + age + " years old!");
 /* No Prompt */
 
 
@@ -25,7 +33,15 @@ alert(name1 + " is" +  age + " years old ");
 
 
 /* ICE CREAM */
-
+/* Var Alert Prompt Conditional */
+// make a string variable for favorite ice cream flavor, prompt user for it
+var flavor = prompt("What's your favorite ice cream flavor?");
+// make an integer variable for number of scoops on the cone, prompt user for it
+var scoops = prompt("How many scoops would you like?");
+// if scoosp is creater than three, alert ("Max 3 scoops!")
+if ( scoops > 3) alert("Max 3 scoops!");
+// otherwise alert "You want " scoops " scoops of " flavor
+else alert( "You want " + scoops + " scoops of " + flavor);
 /* No Prompt */
 
 
@@ -37,8 +53,6 @@ var flavor = prompt("Which ice cream would you like?");
 var scoops = prompt("Hou many scoops of ice cream would you like?");
 // alert "You want " scoops "scoops of " flavor
 alert("You want " + scoops + " scoops of " + flavor + " ice cream" );
-
-/* Prompt with Conditional */
 
 
 /* PET */
@@ -57,14 +71,3 @@ var color = prompt("What is your favorite color?");
 if ( color == "black") alert("Black is not really a color.");
 // otherwise alert color " is a nice color!"var color = prompt("What your favorite color?")
 else alert(color + " is a nice color! " );
-
-
-/* Var Alert Prompt Conditional */
-// make an integer variable for age, prompt user for it
-var age = prompt("How old are you?");
-// make a string variable for name, prompt user for it
-var name1 = prompt("What is your name?");
-// if age is greater than 16, alert "you don't look that old!"
-if ( age > 16 ) alert( name1 +  " don't look that old!");
-// otherwise alert name is age years old
-else alert( name1 + " is " + age + " years old!");

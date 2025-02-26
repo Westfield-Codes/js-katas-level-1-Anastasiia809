@@ -1,6 +1,6 @@
 /* Var Alert Prompt Conditionals */
 // make a variable for pet type, prompt user for it 
-var petType = prompt("")
+var petType = prompt("What type of pets do you like? ")
 // make a variable for pet name, prompt user for it
 // alert "You have a pet type named pet name 
 // if pet is a dog, say "I like dogs, too!"

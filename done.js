@@ -71,9 +71,9 @@ alert("You have " + petType + " named " + petName);
 // if pet is a dog, say "I like dogs, too!"
 if ( petType=="dog") alert("I like dogs too!");
 // if it is a cat, say "I'm allergic to cats"
-if (petType=="cat") alert("I'm allergic to cats!");
+else if (petType=="cat") alert("I'm allergic to cats!");
 // If it is not a dog or a cat, say "what an interesting pet!"
-else alert("What an intresting pet!");
+else alert("what an interesting pet!");
 
 
 
